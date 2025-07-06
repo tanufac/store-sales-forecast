@@ -1,14 +1,14 @@
 # store-sales-forecast
 Kaggle: Store Sales Time Series Forecasting with feature engineering and LightGBM
 
-# 🛒 Store Sales - Time Series Forecasting
+#  Store Sales - Time Series Forecasting
 
 Kaggleコンペ「[Store Sales - Time Series Forecasting](https://www.kaggle.com/competitions/store-sales-time-series-forecasting)」への参加記録です。  
 初心者が段階的にモデルを改善し、ポートフォリオとして記録できるよう、各バージョンでの学びとスコアの推移をまとめています。
 
 ---
 
-## 📌 概要
+## 概要
 
 エクアドルのスーパーマーケット「Favorita」の売上を予測する時系列予測タスクです。  
 日付、店舗、商品カテゴリ、プロモーション、祝日、外部要因（オイル価格・取引数など）を使い、将来15日間の売上を予測します。
@@ -18,7 +18,7 @@ Kaggleコンペ「[Store Sales - Time Series Forecasting](https://www.kaggle.com
 
 ---
 
-## 📊 スコア比較（RMSLE）
+##  スコア比較（RMSLE）
 
 | Version | 特徴量構成                    | スコア     | コメント                                 |
 |---------|-------------------------------|------------|------------------------------------------|
@@ -28,7 +28,7 @@ Kaggleコンペ「[Store Sales - Time Series Forecasting](https://www.kaggle.com
 
 ---
 
-## 🧪 Versionごとの特徴と学び
+##  Versionごとの特徴と学び
 
 ### ✅ Version 1: ベースラインモデル
 
@@ -54,7 +54,7 @@ Kaggleコンペ「[Store Sales - Time Series Forecasting](https://www.kaggle.com
 
 ---
 
-## 🔧 今後の改善アイデア
+##  今後の改善アイデア
 
 - `transactions.csv` を使った来店者数の導入
 - `holiday.type` に基づくOne-hotフラグ（例: `is_Event`, `is_WorkDay`）
@@ -63,13 +63,10 @@ Kaggleコンペ「[Store Sales - Time Series Forecasting](https://www.kaggle.com
 
 ---
 
-## 🛠 使用技術
+##  使用技術
 
 - Python (pandas, numpy, lightgbm, sklearn)
 - Kaggle Notebook
 - 時系列データ処理、特徴量エンジニアリング
 
----
-
-## 📂 ファイル構成例
 
